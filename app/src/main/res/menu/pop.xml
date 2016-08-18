@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="add" android:id="@+id/add_pop">
+        <menu>
+            <item android:title="学生" android:id="@+id/student"/>
+            <item android:title="教师" android:id="@+id/teacher"/>
+            <item android:title="主席" android:id="@+id/chairman"/>
+
+        </menu>
+    </item>
+    <item android:title="delete" android:id="@+id/delete_pop"/>
+    <item android:title="update" android:id="@+id/update_pop"/>
+
+</menu>

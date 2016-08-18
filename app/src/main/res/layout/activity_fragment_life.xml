@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/fragment_life_show"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_edit_txt"
+        android:gravity="center_horizontal"
+        android:hint="请输入信息"/>
+    <Button
+        android:id="@+id/fragment_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加fragment"/>
+    <Button
+        android:id="@+id/fragment_remove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="移除fragment"/>
+    <Button
+        android:id="@+id/fragment_replace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="替换fragment"/>
+    <Button
+        android:id="@+id/fragment_bundle_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="传参给fragment"/>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resours>
+    <style name="Theme.ToolBar.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--设置menu菜单不遮挡toolbar-->
+        <item name="actionOverflowMenuStyle">@style/OverflowMenuStyle</item>
+        <!--配置Menu的图标-->
+        <item name="actionOverflowButtonStyle">@style/MyToolBarToolButtonOverflow</item>
+    </style>
+
+    <style name="MyToolBarToolButtonOverflow" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@mipmap/nearby_select_bg_s</item>
+    </style>
+
+    <style name="OverflowMenuStyle" parent="Widget.AppCompat.Light.PopupMenu.Overflow">
+        <!--把该属性改为false即可使menu位置位于toolbar之下-->
+        <item name="overlapAnchor">false</item>
+    </style>
+
+</resours>

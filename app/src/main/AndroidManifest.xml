@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.scxh.myapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/m02"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".TransportActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuOptionsActivity"
+            android:label="菜单" />
+        <activity
+            android:name=".ToolBarActivity"
+            android:label="工具条" />
+        <activity
+            android:name=".PopupActivity"
+            android:label="弹出菜单" />
+        <activity android:name=".DialogActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ViewPagerActivity" />
+        <activity
+            android:name=".ProgressBarActivity"
+            android:label="@string/title_activity_progress_bar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainLayoutActivity" />
+        <!-- <activity android:name=".TransportActivity"></activity> -->
+        <activity android:name=".TabActivity" />
+        <activity
+            android:name=".ListViewActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".MeituanActivity" />
+        <activity android:name=".GetCountActivity" />
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".MyintentServiceActivity" />
+
+        <receiver android:name=".myBroadCastReciever">
+            <intent-filter>
+                <action android:name="com.example.scxh.myBroadcasrReciever" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".MyBroadcastActivity" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".AsyntaskActivity" />
+        <activity android:name=".HttpDownloadActivity" />
+        <activity android:name=".GridDownloadActivity" />
+        <activity android:name=".bigPictureActivity" />
+        <activity android:name=".glide.getListitapActivity" />
+        <activity android:name=".ServletActivity" />
+        <activity android:name=".WebViewActivity" />
+        <activity android:name=".JsonActivity" />
+        <activity android:name=".bitmaps.GetPicActivity" />
+        <activity
+            android:name=".fragment.MainFragmentActivity"
+            android:label="fragment" />
+        <activity android:name=".fragment.FragmentLifeActivity" />
+        <activity android:name=".test.TestImageActivity" />
+        <activity android:name=".test.ListDownloadActivity" />
+        <activity android:name=".ViewPager.PagerViewActivity" />
+        <activity android:name=".slider.NewsAddActivity" />
+        <activity android:name=".animation.AnimationActivity" />
+        <activity android:name=".animation.XmlAnimaterActivity" />
+        <activity android:name=".finfish.AActivity" />
+        <activity android:name=".finfish.BActivity" />
+        <activity android:name=".finfish.CActivity" />
+        <activity android:name=".finfish.List.OneActivity" />
+        <activity android:name=".finfish.List.TwoActivity" />
+        <activity android:name=".finfish.List.ThreeActivity" />
+        <activity
+            android:name=".finfish.RSstyle.aActivity"
+            android:launchMode="singleTask" />
+        <activity android:name=".finfish.RSstyle.bActivity" />
+        <activity android:name=".finfish.RSstyle.cActivity" />
+        <activity android:name=".finfish.result.FirstActivity" />
+        <activity android:name=".finfish.result.TwoActivity" />
+        <activity android:name=".finfish.result.ThirdActivity"></activity>
+    </application>
+
+</manifest>

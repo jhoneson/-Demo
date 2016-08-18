@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.scxh.myapp.slider.NewsFragment">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_dark"
+        android:text="个人信息"
+        android:textColor="@android:color/white"
+        android:id="@+id/person_txt"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="视频"
+        android:textColor="@android:color/white"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/video_txt"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="新闻"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"
+        android:id="@+id/news_txt"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图片"
+        android:textColor="@android:color/white"
+        android:id="@+id/pic_txt"/>
+
+
+
+</LinearLayout>
